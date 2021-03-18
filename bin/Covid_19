@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby 
+
+require_relative '../lib/Covid_19'
+
+Covid19::CLI.new.call
+
+
