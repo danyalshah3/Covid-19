@@ -12,3 +12,7 @@ gem "rubocop", "~> 1.7"
 gem 'pry'
 
 gem 'httparty'
+
+gem 'dotenv'
+
+gem 'colorize'

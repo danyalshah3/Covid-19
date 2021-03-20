@@ -3,8 +3,7 @@
 #     attr_accessor :response
 
 #         def initialize
-    
-#         @response = HTTParty.get("https://covid-api.mmediagroup.fr/v1/cases")
+#      @response = HTTParty.get("https://covid-api.mmediagroup.fr/v1/cases")
 #         binding.pry
 #          end
 
