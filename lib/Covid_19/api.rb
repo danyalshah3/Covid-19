@@ -1,10 +1,10 @@
-# class Covid19::Scraper
+class Covid19::API
 
-#     attr_accessor :response
+    attr_reader :response
 
-#         def initialize
-#      @response = HTTParty.get("https://covid-api.mmediagroup.fr/v1/cases")
-#         binding.pry
-#          end
+        def initialize
+     @response = HTTParty.get("https://covid-api.mmediagroup.fr/v1/cases")
+        #   binding.pry
+         end
 
-#     end
+    end
