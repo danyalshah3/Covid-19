@@ -16,3 +16,5 @@ gem 'httparty'
 gem 'dotenv'
 
 gem 'colorize'
+
+gem "tty-prompt"
