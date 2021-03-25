@@ -36,9 +36,9 @@
     def menu
         input = ""
         puts "Hi! #{@name}, which Country you would like to get details about:".colorize(:light_red)
-         input = gets.strip
+        input = gets.strip
 
-         while input != "nil" 
+        while input != "nil" 
             country = Covid19::Covid.find_by_name(input) #it finds the input(country) by name
              get_country_details(country) #it takes in the argument country and gets the details of the country.
             puts ""
@@ -51,8 +51,8 @@
               puts "Goodbye #{@name}, see you tomorrow!".colorize(:light_red)
               exit 
                 
-             end  
-         end
+            end  
+        end
     end 
 
 
