@@ -42,7 +42,6 @@
             country = Covid19::Covid.find_by_name(input) #it finds the input(country) by name
              get_country_details(country) #it takes in the argument country and gets the details of the country.
             puts ""
-            # input = @prompt.select("Hey #{@name}, would you like to see details about another country?, please select?", ["yes", "exit"]).colorize(:light_red)
              puts "Hey #{@name}, would you like to see details about another country?, please type yes to start over or exit/no to exit the app".colorize(:light_red)
             input = gets.strip
             if input == "yes"
