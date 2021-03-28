@@ -6,7 +6,7 @@
         @name = @prompt.ask("Whats your name?")
         puts "Hi!, #{@name}"
         logo 
-        sleep(0.5)
+        sleep(0.5) #astethic purposes
         get_countries 
         menu 
         get_country_details    
@@ -39,15 +39,15 @@
         input = gets.strip
 
         while input != "nil" 
-            country = Covid19::Covid.find_by_name(input) #it finds the input(country) by name
+             country = Covid19::Covid.find_by_name(input) #it finds the input(country) by name
              get_country_details(country) #it takes in the argument country and gets the details of the country.
-            puts ""
+             puts ""
              puts "Hey #{@name}, would you like to see details about another country?, please type yes to start over or exit/no to exit the app".colorize(:light_red)
             input = gets.strip
             if input == "yes"
              menu
             elsif input == "exit" || input == "no"
-              puts "Goodbye #{@name}, see you tomorrow!".colorize(:light_red)
+              puts "Goodbye #{@name}, see you soon!".colorize(:light_red)
               exit 
                 
             end  

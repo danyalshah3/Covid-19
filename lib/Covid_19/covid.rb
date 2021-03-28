@@ -29,6 +29,4 @@ class Covid19::Covid
         #find_by_name method is being called on the Covid class, it takes in the name and output the country(object) with the name.
     end
 
-    
-
 end
