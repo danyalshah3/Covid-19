@@ -1,8 +1,5 @@
 require 'pry'
-require 'nokogiri'
-require 'open-uri'
 require 'httparty'
-require 'dotenv/load'
 require 'colorize'
 require 'tty-prompt'
 
