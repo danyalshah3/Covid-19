@@ -11,7 +11,6 @@ GEM
     coderay (1.1.3)
     colorize (0.8.1)
     diff-lcs (1.4.4)
-    dotenv (2.7.6)
     httparty (0.18.1)
       mime-types (~> 3.0)
       multi_xml (>= 0.5.2)
@@ -85,7 +84,6 @@ DEPENDENCIES
   Covid_19!
   bundler
   colorize
-  dotenv
   httparty
   pry
   rake (~> 13.0)
@@ -94,6 +92,4 @@ DEPENDENCIES
   tty-prompt
 
 BUNDLED WITH
-   2.2.13
-
-.env
+   2.2.24
